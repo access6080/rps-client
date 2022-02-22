@@ -1,3 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;1,300&family=Spectral&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.bg-game {
+    background: linear-gradient(90.59deg, #5FE6D5 1.4%, #7DBDEB 98.77%);
+}
+
+.text-title {
+    text-shadow : 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background : linear-gradient(270deg, #B6B4B4 11.55%, #777474 92.25%);
+    background-clip: text;
+    -webkit-background-clip : text;
+    -webkit-text-fill-color : transparent;
+}
+
+.pvc {
+    background : #20AAE9;
+    box-shadow : 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius : 60px;
+}
+
+.pvp {
+    background : #20AAE9;
+    box-shadow : 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius : 60px;
+}
+
+.game-box {
+    box-sizing : border-box;
+    filter : drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius : 60px;
+}
+
+.dock {
+    border : 1px solid #C4C4C4;
+    box-sizing : border-box;
+    filter : drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius : 30px;
+}
+
+
+
+
+
+
