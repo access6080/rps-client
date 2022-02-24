@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Footer from '../components/Footer'
+import GameSetup from '../components/GameSetup'
 import Header from '../components/Header'
 import SelectGameType from '../components/SelectGameType'
 import Title from '../components/Title'
@@ -23,6 +24,7 @@ const Home: NextPage = () => {
 		<footer>
 			<Footer />  
 		</footer>
+		<GameSetup />
 	</div>
 	)
 }

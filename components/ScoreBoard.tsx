@@ -1,13 +1,13 @@
-import React from 'react'
+import React,  {useContext, useEffect} from 'react'
+import { SocketContext } from '../context'
 
-interface ScoreBoardProps{
-    playerOneName: string;
-    playerTwoName: string;
-    playerOneScore: number;
-    playerTwoScore: number;
-}
 
-const ScoreBoard = ({ playerOneName, playerTwoName, playerOneScore, playerTwoScore}: ScoreBoardProps) => {
+const ScoreBoard = () => {
+    const {playerOneScore, playerTwoScore, name} = useContext(SocketContext)
+    const playerOneName = name || 'Player'
+    const playerTwoName = 'Computer'
+
+    
     
     return (
         <div className="flex justify-evenly item-center min-w-screen md:min-w-[1010px] h-[100px]">
